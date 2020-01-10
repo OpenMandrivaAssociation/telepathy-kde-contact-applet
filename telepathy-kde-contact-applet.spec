@@ -26,7 +26,7 @@ Telepathy KDE Contact Plasmoid.
 
 %prep
 %setup -q -n %srcname-%version
-%apply_patches
+%autopatch -p1
 
 %build
 %cmake_kde4
